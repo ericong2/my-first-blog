@@ -8,5 +8,5 @@ Created on Wed Feb 01 10:33:44 2017
 from django.conf.urls import url
 from . import views
 
-urlpatterns = [url(r'^hello/$', hello),]
+urlpatterns = [url(r'^$', views.hello, name='hello'),]
                        
